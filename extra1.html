@@ -1,0 +1,19 @@
+<script>
+    const number = Number(prompt(`Informe um número de 2 a 89`).replace(",", "."));
+
+    if (number >= 2 && number < 8) {
+            const resultado = number * 2;
+        alert(`A conta aplicada foi de 2x ${number} e o resultado foi de ${resultado}`)
+    }
+    else if (number >= 8 && number < 15) {
+        const resultado = number * number;
+        alert(`A conta aplicada foi de 2x ${number}, e o resultado foi de ${resultado}`)
+    }
+    else if (number >= 15 && number < 90) {
+        const resultado = number * 3;
+        alert(`A conta aplicada foi de 2x ${number}, e o resultado foi de ${resultado}`)
+    }
+    else {
+        alert(`VALOR INVÁLIDO!`)
+    }
+</script>
